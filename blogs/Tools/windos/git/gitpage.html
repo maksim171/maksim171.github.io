@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<title>MarkdownPad Document</title>
+<title>gitpage</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 /* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
@@ -291,118 +291,28 @@ img {
 </style>
 </head>
 <body>
-<h1>youtube</h1>
-<h6>ss</h6>
+<h1>利用github page创建自己的博客</h1>
+<p>贴上官方的页面</p>
 <blockquote>
-<p>asdasdf
-asdf</p>
+<p>https://pages.github.com/</p>
 </blockquote>
-<hr />
-<hr />
+<p>网站上说的很清楚，github的个人网站分为两种</p>
 <ul>
-<li>red</li>
-<li>asd</li>
-<li>asdf</li>
+<li>User or organization site --- 介绍本人或者公司的网站</li>
+<li>Project site --- 或者是介绍本项目的网站</li>
 </ul>
-<ol>
-<li>Bird</li>
-<li>McHale</li>
-<li>Parish</li>
-</ol>
+<p>总体来说都是static web，就是存储在服务端的html文档，仅仅在浏览器中解释执行。</p>
+<p><strong>注意：个人网站的repository 命名必须符合标准才能被访问，当然可以在repository 创建CNAME文件来支持域名映射,详见官网。</strong></p>
 <ul>
-<li><p>Bird</p></li>
-<li><p>Magic</p></li>
+<li>在浏览器中访问<em>username.github.io</em>，其实就是在浏览器中打开这个项目根目录下的index.html文件。</li>
+<li>网站上谈到的用Jekyll来生成自己的博客，其实就是用Jeklly来生成和管理自己的static web页面而已，自己其实可以利用自己的本地的其他的前端工具来实现博客的开发，整个博客的入口是index.html</li>
+<li>其实在浏览器中也访问github中的 <em>username.github.io</em> 的其他路径来查看其他的文本内容。
+例如https://maksim171.github.io/myblogs/2016-11-06/readme.html              <br />
+就是查看在maksim171用户中的  maksim171.github.io项目中的myblogs/2016-11-06/目录下的readme.html文件的网页效果。</li>
 </ul>
-<p>这是一个普通段落：</p>
-<pre>
-<code>
-String str = new String();
-
-
-
-</code>
-</pre>
-<p><em>asdfasdf</em> </p>
-<p>| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |</p>
-<p>|Table|Are|
-|-----|---|</p>
-<table>
-					
-					
-					
-					
-					<tr>
-						<td style="width:110px;">参建单位名称：<font color="#FF0000">*</font></td>
-						<td><input type="text"/></td>
-					</tr>
-					
-					<tr>
-						<td></td>
-						<td>
-							<select style="width: 40%;">
-								<option value="建设单位">建设单位1</option>
-							</select>
-							<img src="../img/add.png" style="width: 30px;height: 30px ;vertical-align:middle;"/>
-						</td>
-					</tr>
-					
-					<tr>
-						<td>施工单位名称：<font color="#FF0000">*</font></td>
-						<td><input type="text"/></td>
-					</tr>
-					
-					<tr>
-						<td></td>
-						<td>
-							<select style="width: 40%;">
-								<option value="施工单位">施工单位1</option>
-							</select>
-							<img src="../img/add.png" style="width: 30px;height: 30px ;vertical-align:middle;"/>
-						</td>
-					</tr>
-					
-
-					<tr>
-						<td>监理单位名称：<font color="#FF0000">*</font></td>
-						<td><input type="text"/></td>
-					</tr>
-					
-					<tr>
-						<td></td>
-						<td>
-							<select style="width: 40%;">
-								<option value="监理单位">监理单位1</option>
-							</select>
-							<img src="../img/add.png" style="width: 30px;height: 30px ;vertical-align:middle;"/>
-						</td>
-					</tr>
-					
-					<tr>
-						<td>设计单位名称：<font color="#FF0000">*</font></td>
-						<td><input type="text"/></td>
-					</tr>
-					
-					<tr>
-						<td></td>
-						<td>
-							<select style="width: 40%;">
-								<option value="设计单位">设计单位1</option>
-							</select>
-							<img src="../img/add.png" style="width: 30px;height: 30px ;vertical-align:middle;"/>
-						</td>
-					</tr>
-					
-					
-
-				
-				
-				</table>
-<p>This is <a href="http://example.com/" title="Title">an example</a> inline link.</p>
-<p><a href="http://example.net/">This link</a> has no title attribute.</p>
+<h3><font style="color:red">综上所述就是把本地浏览器可以直接解释运行的html文件搬到云端，github服务器仅仅提供存储，不提供逻辑的支持，所有的逻辑都在html中。</font></h3>
+<hr />
+<p><img src="C:\Users\maksim-ssd\Desktop\MyBlogg\blogs\Tools\windos\git\image.png" /></p>
 
 </body>
 </html>
